@@ -6,7 +6,8 @@
             <main-tags></main-tags>
             <div class="content">
                 <transition name="move" mode="out-in">
-                    <keep-alive>
+                    <!-- exclude排除非静态页面 -->
+                    <keep-alive exclude="olMap">
                         <router-view></router-view>
                     </keep-alive>
                 </transition>
