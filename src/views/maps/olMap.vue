@@ -9,18 +9,23 @@
 <script>
 import DCMap from "./olComponents/map";
 import DCBaseLayer from "./olComponents/baselayer";
+import proj4 from "proj4";
 export default {
   name: "olMap",
   components: {
     DCMap,
     DCBaseLayer,
   },
+  mounted() {
+  },
+  methods: {
+  },
 };
 </script>
 
 <style>
-.map{
- width: 100%;
- height: calc(100vh - 120px); 
+.map {
+  width: 100%;
+  height: calc(100vh - 120px);
 }
 </style>
