@@ -7,7 +7,12 @@ export default [
             {
                 path: '/olMap',
                 component: resolve => require(['./olMap.vue'], resolve),
-                meta: { title: '综合地图' }
+                meta: { title: 'openlayers' }
+            },
+            {
+                path: '/leafletMap',
+                component: resolve => require(['./leafletMap.vue'], resolve),
+                meta: { title: 'leaflet' }
             }
         ]
     }

@@ -9,7 +9,6 @@
 <script>
 import DCMap from "./olComponents/map";
 import DCBaseLayer from "./olComponents/baselayer";
-import proj4 from "proj4";
 export default {
   name: "olMap",
   components: {

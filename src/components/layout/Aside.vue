@@ -2,7 +2,7 @@
   <div class="aside" style="width:200px;">
     <div class="logo" style="height:60px;background:#002140;font-size:0;">
       <img src="../../../public/img/logo.svg" alt />
-      <span class="cai">caimaomao</span>
+      <span class="cai">MapX</span>
     </div>
     <el-menu
       class="el-menu-vertical-demo"
@@ -66,82 +66,86 @@ export default {
           title: "系统首页",
         },
         {
-          icon: "el-icon-position",
+          icon: "el-icon-location",
           index: "olMap",
           title: "综合地图",
           subs: [
             {
-              icon: "el-icon-tickets",
               index: "olMap",
               title: "openlayers",
-            }]
-        },
-        {
-          icon: "el-icon-tickets",
-          index: "3",
-          title: "系统设置",
-          subs: [
-            {
-              icon: "el-icon-tickets",
-              index: "role",
-              title: "角色管理",
             },
             {
-              index: "user",
-              title: "用户管理",
-            },
-            {
-              index: "direction",
-              title: "字典管理",
-            },
-            {
-              index: "message",
-              title: "消息管理",
-            },
-            {
-              index: "app",
-              title: "App管理",
-            },
-            {
-              index: "loginlog",
-              title: "登录日志",
-            },
-            {
-              index: "managelog",
-              title: "操作日志",
-            },
-            {
-              index: "errlog",
-              title: "异常日志",
-            },
-            {
-              index: "druid",
-              title: "Druid监控",
+              index: "leafletMap",
+              title: "leaflet",
             },
           ],
         },
-        {
-          icon: "el-icon-tickets",
-          index: "2",
-          title: "错误页",
-          subs: [
-            {
-              icon: "el-icon-tickets",
-              index: "err404",
-              title: "404",
-            },
-            {
-              icon: "el-icon-tickets",
-              index: "err403",
-              title: "403",
-            },
-            {
-              icon: "el-icon-tickets",
-              index: "err500",
-              title: "500",
-            },
-          ],
-        },
+        // {
+        //   icon: "el-icon-tickets",
+        //   index: "3",
+        //   title: "系统设置",
+        //   subs: [
+        //     {
+        //       icon: "el-icon-tickets",
+        //       index: "role",
+        //       title: "角色管理",
+        //     },
+        //     {
+        //       index: "user",
+        //       title: "用户管理",
+        //     },
+        //     {
+        //       index: "direction",
+        //       title: "字典管理",
+        //     },
+        //     {
+        //       index: "message",
+        //       title: "消息管理",
+        //     },
+        //     {
+        //       index: "app",
+        //       title: "App管理",
+        //     },
+        //     {
+        //       index: "loginlog",
+        //       title: "登录日志",
+        //     },
+        //     {
+        //       index: "managelog",
+        //       title: "操作日志",
+        //     },
+        //     {
+        //       index: "errlog",
+        //       title: "异常日志",
+        //     },
+        //     {
+        //       index: "druid",
+        //       title: "Druid监控",
+        //     },
+        //   ],
+        // },
+        // {
+        //   icon: "el-icon-tickets",
+        //   index: "2",
+        //   title: "错误页",
+        //   subs: [
+        //     {
+        //       icon: "el-icon-tickets",
+        //       index: "err404",
+        //       title: "404",
+        //     },
+        //     {
+        //       icon: "el-icon-tickets",
+        //       index: "err403",
+        //       title: "403",
+        //     },
+        //     {
+        //       icon: "el-icon-tickets",
+        //       index: "err500",
+        //       title: "500",
+        //     },
+        //   ],
+        // },
       ],
     };
   },
