@@ -44,6 +44,7 @@ let mapConfig = {
     },
     projectionExtent: projectionExtent,
     res: res,
+    mapStyle: "amap://styles/c3990e6b74ee98fb63c0fc5490329036",
     matrixIds: [
         0,
         1,

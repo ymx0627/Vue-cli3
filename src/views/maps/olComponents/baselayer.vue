@@ -2,7 +2,7 @@
 
 <script>
 import ol from "ol";
-import mapConfig from "./map.cfg";
+import mapConfig from "../config/map.cfg";
 export default {
   name: "coverLayer",
   inject: ["getMap"],

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import mapConfig from "./olComponents/map.cfg";
+import mapConfig from "./config/map.cfg";
 export default {
   name: "leafletMap",
   data() {

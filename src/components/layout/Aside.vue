@@ -60,11 +60,11 @@ export default {
     return {
       // isCollapse: false
       items: [
-        {
-          icon: "el-icon-star-on",
-          index: "dashboard",
-          title: "系统首页",
-        },
+        // {
+        //   icon: "el-icon-star-on",
+        //   index: "dashboard",
+        //   title: "系统首页",
+        // },
         {
           icon: "el-icon-location",
           index: "olMap",
@@ -77,6 +77,10 @@ export default {
             {
               index: "leafletMap",
               title: "leaflet",
+            },
+            {
+              index: "aMap",
+              title: "gaode",
             },
           ],
         },
