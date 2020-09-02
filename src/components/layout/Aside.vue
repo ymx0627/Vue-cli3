@@ -82,6 +82,10 @@ export default {
               index: "aMap",
               title: "gaode",
             },
+            {
+              index: "webgl",
+              title: "webgl",
+            },
           ],
         },
         // {

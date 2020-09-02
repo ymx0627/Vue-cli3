@@ -17,12 +17,20 @@ export default [{
             meta: {
                 title: 'leaflet'
             }
-        }, {
+        }, 
+        {
             path: '/aMap',
             component: resolve => require(['./aMap.vue'], resolve),
             meta: {
                 title: 'gaode'
             }
-        }
+        },
+        {
+            path: '/webgl',
+            component: resolve => require(['./webgl.vue'], resolve),
+            meta: {
+                title: 'webgl'
+            }
+        },
     ]
 }]
