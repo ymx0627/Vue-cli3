@@ -17,12 +17,25 @@ export default [{
             meta: {
                 title: 'leaflet'
             }
-        }, 
+        },
+        {
+            path: '/mapboxMap',
+            component: resolve => require(['./mapboxMap.vue'], resolve),
+            meta: {
+                title: 'mapbox'
+            }
+        },
         {
             path: '/aMap',
             component: resolve => require(['./aMap.vue'], resolve),
             meta: {
                 title: 'gaode'
+            }
+        }, {
+            path: '/cesium',
+            component: resolve => require(['./cesiumMap.vue'], resolve),
+            meta: {
+                title: 'cesium'
             }
         },
         {

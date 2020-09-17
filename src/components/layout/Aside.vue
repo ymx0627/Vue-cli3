@@ -1,11 +1,14 @@
 <template>
   <div class="aside" style="width:200px;">
     <div class="logo" style="height:60px;background:#002140;font-size:0;">
-      <img src="../../../public/img/logo.svg" alt />
+      <img src="../../assets/img/mapLogo.png" alt />
       <span class="cai">MapX</span>
     </div>
     <el-menu
       class="el-menu-vertical-demo"
+      default-active="olMap"
+      
+
       :collapse="isCollapse"
       background-color="#242f42"
       text-color="#fff"
@@ -58,7 +61,7 @@ export default {
   },
   data() {
     return {
-      // isCollapse: false
+      // isCollapse: false,
       items: [
         // {
         //   icon: "el-icon-star-on",
@@ -77,10 +80,18 @@ export default {
             {
               index: "leafletMap",
               title: "leaflet",
+            },            
+            {
+              index: "mapboxMap",
+              title: "mapbox",
+            },
+            {
+              index: "cesium",
+              title: "cesium",
             },
             {
               index: "aMap",
-              title: "gaode",
+              title: "amap",
             },
             {
               index: "webgl",
